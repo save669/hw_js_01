@@ -17,10 +17,10 @@ while(!isWinningDouble) {
   console.log('Первый бросок: ' + dice1)
   console.log('Второй бросок: ' + dice2)
   if(dice1 === dice2 && dice1 > 3 && dice2 > 3) {
-    alert("Win!")
+    console.log('Выигрышный дубль!')
     isWinningDouble = true
   } else {
-    alert('loose')
+    console.log('Не выигрышный дубль.')
     
   }
 }
@@ -29,7 +29,7 @@ while(!isWinningDouble) {
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
 if (isWinningDouble) {
-  console.log('Выигрышный дубль!')
+  
 } else {
   console.log('Не выигрышный дубль.')
 }
