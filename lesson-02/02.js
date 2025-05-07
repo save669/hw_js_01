@@ -21,7 +21,7 @@ while(!isWinningDouble) {
     isWinningDouble = true
   } else {
     alert('loose')
-    1
+    
   }
 }
 
